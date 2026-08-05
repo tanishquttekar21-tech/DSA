@@ -4,7 +4,7 @@ using namespace std;
 
 int iterative_binarySearch(vector<int> &arr, int x) {
     int low = 0;
-    int high = arr.size() - 1;
+    int high = arr.size()-1;
     while (low <= high) {
         int mid = low + (high - low) / 2;
 
